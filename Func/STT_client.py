@@ -10,7 +10,7 @@ website = r"'Replace With Your Path'\STT_server.html"
 driver.get(website)
 
 
-def TTS():
+def STT():
     print("LISTENING ... ")
     driver.find_element(by=By.ID, value='start').click()
     while 1:
