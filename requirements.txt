@@ -1,0 +1,2 @@
+selenium
+edge-tts
