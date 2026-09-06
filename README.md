@@ -21,3 +21,9 @@ A fast, privacy-focused local AI assistant designed to help with daily productiv
 Distributed under the MIT License. See `LICENSE.txt` for details.
 
 ## Download Nova Right Now And Experience The Ultimate AI Power
+
+# Note
+
+* Requires Python 3.12+
+* Requires Google Chrome To Be Installed
+* Requires Ollama To Be Installed
