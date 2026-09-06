@@ -27,3 +27,5 @@ Distributed under the MIT License. See `LICENSE.txt` for details.
 * Requires Python 3.12+
 * Requires Google Chrome To Be Installed
 * Requires Ollama To Be Installed
+
+> **Note on Compatibility:** Nova is designed and optimized specifically for **Windows**. Certain modules, system path checks, and automation scripts may break or require manual configuration on macOS or Linux.
