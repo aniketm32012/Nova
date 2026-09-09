@@ -1,0 +1,1511 @@
+=== RUNNING NOVACORTEX 500-QUESTION BENCHMARK ===
+
+[001/500] Query: 'who won the F1 race today in Monaco'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[002/500] Query: 'what is the live score of the cricket match right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[003/500] Query: 'will it rain today in Mumbai'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[004/500] Query: 'what is the stock price of Apple right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[005/500] Query: 'who won the gold medal in basketball at the Olympics'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[006/500] Query: 'latest news on FIFA world cup qualifiers'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[007/500] Query: 'what is the current temperature outside'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[008/500] Query: 'who is leading the IPL tournament points table currently'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[009/500] Query: 'what time is the sunset today'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[010/500] Query: 'who won the UEFA champions league finals last night'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[011/500] Query: 'open chrome and search for mechanical keyboards'
+        Expected: automation    | Result: automation    -> PASS
+
+[012/500] Query: 'launch spotify and play phonk playlist'
+        Expected: automation    | Result: automation    -> PASS
+
+[013/500] Query: 'close all open windows in edge browser'
+        Expected: automation    | Result: automation    -> PASS
+
+[014/500] Query: 'kill process node.exe hogging my ram in taskmanager'
+        Expected: automation    | Result: automation    -> PASS
+
+[015/500] Query: 'start a new terminal instance in powershell'
+        Expected: automation    | Result: automation    -> PASS
+
+[016/500] Query: 'open control panel and check bluetooth settings'
+        Expected: automation    | Result: automation    -> PASS
+
+[017/500] Query: 'run command clear cache in cmd'
+        Expected: automation    | Result: automation    -> PASS
+
+[018/500] Query: 'open taskmanager and shut down heavy background apps'
+        Expected: automation    | Result: automation    -> PASS
+
+[019/500] Query: 'launch vscode and open my recent project folder'
+        Expected: automation    | Result: automation    -> PASS
+
+[020/500] Query: 'close app discord and mute system volume'
+        Expected: automation    | Result: automation    -> PASS
+
+[021/500] Query: 'how to implement binary search tree in C++'
+        Expected: coding        | Result: coding        -> PASS
+
+[022/500] Query: 'debug this TypeError in my JavaScript fetch call'
+        Expected: coding        | Result: coding        -> PASS
+
+[023/500] Query: 'write a regex pattern to validate email addresses'
+        Expected: coding        | Result: coding        -> PASS
+
+[024/500] Query: 'explain how async await works in Rust with code example'
+        Expected: coding        | Result: coding        -> PASS
+
+[025/500] Query: 'convert python dictionary to json string script'
+        Expected: coding        | Result: coding        -> PASS
+
+[026/500] Query: 'refactor this function to reduce time complexity to O(n)'
+        Expected: coding        | Result: coding        -> PASS
+
+[027/500] Query: 'fix syntaxerror in my dockerfile entrypoint script'
+        Expected: coding        | Result: coding        -> PASS
+
+[028/500] Query: 'how do I handle CORS errors in a Node.js express backend'
+        Expected: coding        | Result: coding        -> PASS
+
+[029/500] Query: 'write a SQL query to join user tables and aggregate total sales'
+        Expected: coding        | Result: coding        -> PASS
+
+[030/500] Query: 'explain how memory allocation works in C pointers'
+        Expected: coding        | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[031/500] Query: 'calculate square root of 144 plus 56'
+        Expected: maths         | Result: maths         -> PASS
+
+[032/500] Query: 'solve for x in 3x + 15 = 45'
+        Expected: maths         | Result: maths         -> PASS
+
+[033/500] Query: 'what is 15 percent of 250'
+        Expected: maths         | Result: maths         -> PASS
+
+[034/500] Query: 'find derivative of x squared with respect to x'
+        Expected: maths         | Result: maths         -> PASS
+
+[035/500] Query: 'if a car travels 60 miles in 45 minutes what is its speed'
+        Expected: maths         | Result: maths         -> PASS
+
+[036/500] Query: 'evaluate integral of sin(x) dx from 0 to pi'
+        Expected: maths         | Result: maths         -> PASS
+
+[037/500] Query: 'multiply 789 by 432'
+        Expected: maths         | Result: maths         -> PASS
+
+[038/500] Query: 'what is the log base 10 of 1000'
+        Expected: maths         | Result: maths         -> PASS
+
+[039/500] Query: 'calculate matrix multiplication for two 2x2 matrices'
+        Expected: maths         | Result: maths         -> PASS
+
+[040/500] Query: 'what is the factorial of 7 divided by 3'
+        Expected: maths         | Result: maths         -> PASS
+
+[041/500] Query: 'if all blooming flowers are colorful and roses bloom, are roses colorful'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[042/500] Query: 'why does hot water freeze faster than cold water explain logically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[043/500] Query: 'a farmer has 17 sheep and all but 9 die how many are left'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[044/500] Query: 'explain step by step why dark matter is hypothesized to exist'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[045/500] Query: 'if A is taller than B and B is taller than C is C shorter than A'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[046/500] Query: 'how can a person walk on water logically under physical principles'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[047/500] Query: 'solve this logic grid puzzle about three brothers living in different cities'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[048/500] Query: 'why do mirrors flip images horizontally but not vertically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[049/500] Query: 'if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[050/500] Query: 'explain the monty hall problem and why changing doors doubles winning odds'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[051/500] Query: 'draft a formal cover letter for a senior video editor position'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[052/500] Query: 'rewrite this paragraph to sound more professional and concise'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[053/500] Query: 'write a persuasive essay outline on renewable energy adoption'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[054/500] Query: 'compose a polite follow up email regarding my job interview'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[055/500] Query: 'make this text sound more poetic and engaging for a post'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[056/500] Query: 'proofread this passage for grammar and punctuation errors'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[057/500] Query: 'write a short story about an AI developing self awareness'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[058/500] Query: 'draft an apology letter to a client for project delay'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[059/500] Query: 'rephrase this technical paragraph for a non-technical audience'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[060/500] Query: 'write a compelling YouTube script intro for a tech review video'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[061/500] Query: 'what is the capital city of Australia'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[062/500] Query: 'who painted the Mona Lisa'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[063/500] Query: 'what is the molecular formula of table salt'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[064/500] Query: 'how many continents are there on Earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[065/500] Query: 'tell me a quick joke'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[066/500] Query: 'what is the atomic number of Gold'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[067/500] Query: 'what language is spoken in Brazil'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[068/500] Query: 'what is the speed of light in vacuum'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[069/500] Query: 'who discovered penicillin in science history'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[070/500] Query: 'what is the largest ocean on planet earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[071/500] Query: 'Can you tell me: who won the F1 race today in Monaco?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[072/500] Query: 'Can you tell me: what is the live score of the cricket match right now?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[073/500] Query: 'Can you tell me: will it rain today in Mumbai?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[074/500] Query: 'Can you tell me: what is the stock price of Apple right now?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[075/500] Query: 'Can you tell me: who won the gold medal in basketball at the Olympics?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[076/500] Query: 'Can you tell me: latest news on FIFA world cup qualifiers?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[077/500] Query: 'Can you tell me: what is the current temperature outside?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[078/500] Query: 'Can you tell me: who is leading the IPL tournament points table currently?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[079/500] Query: 'Can you tell me: what time is the sunset today?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[080/500] Query: 'Can you tell me: who won the UEFA champions league finals last night?'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[081/500] Query: 'Can you tell me: open chrome and search for mechanical keyboards?'
+        Expected: automation    | Result: automation    -> PASS
+
+[082/500] Query: 'Can you tell me: launch spotify and play phonk playlist?'
+        Expected: automation    | Result: automation    -> PASS
+
+[083/500] Query: 'Can you tell me: close all open windows in edge browser?'
+        Expected: automation    | Result: automation    -> PASS
+
+[084/500] Query: 'Can you tell me: kill process node.exe hogging my ram in taskmanager?'
+        Expected: automation    | Result: automation    -> PASS
+
+[085/500] Query: 'Can you tell me: start a new terminal instance in powershell?'
+        Expected: automation    | Result: automation    -> PASS
+
+[086/500] Query: 'Can you tell me: open control panel and check bluetooth settings?'
+        Expected: automation    | Result: automation    -> PASS
+
+[087/500] Query: 'Can you tell me: run command clear cache in cmd?'
+        Expected: automation    | Result: automation    -> PASS
+
+[088/500] Query: 'Can you tell me: open taskmanager and shut down heavy background apps?'
+        Expected: automation    | Result: automation    -> PASS
+
+[089/500] Query: 'Can you tell me: launch vscode and open my recent project folder?'
+        Expected: automation    | Result: automation    -> PASS
+
+[090/500] Query: 'Can you tell me: close app discord and mute system volume?'
+        Expected: automation    | Result: automation    -> PASS
+
+[091/500] Query: 'Can you tell me: how to implement binary search tree in C++?'
+        Expected: coding        | Result: coding        -> PASS
+
+[092/500] Query: 'Can you tell me: debug this TypeError in my JavaScript fetch call?'
+        Expected: coding        | Result: coding        -> PASS
+
+[093/500] Query: 'Can you tell me: write a regex pattern to validate email addresses?'
+        Expected: coding        | Result: coding        -> PASS
+
+[094/500] Query: 'Can you tell me: explain how async await works in Rust with code example?'
+        Expected: coding        | Result: coding        -> PASS
+
+[095/500] Query: 'Can you tell me: convert python dictionary to json string script?'
+        Expected: coding        | Result: coding        -> PASS
+
+[096/500] Query: 'Can you tell me: refactor this function to reduce time complexity to O(n)?'
+        Expected: coding        | Result: coding        -> PASS
+
+[097/500] Query: 'Can you tell me: fix syntaxerror in my dockerfile entrypoint script?'
+        Expected: coding        | Result: coding        -> PASS
+
+[098/500] Query: 'Can you tell me: how do I handle CORS errors in a Node.js express backend?'
+        Expected: coding        | Result: coding        -> PASS
+
+[099/500] Query: 'Can you tell me: write a SQL query to join user tables and aggregate total sales?'
+        Expected: coding        | Result: coding        -> PASS
+
+[100/500] Query: 'Can you tell me: explain how memory allocation works in C pointers?'
+        Expected: coding        | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[101/500] Query: 'Can you tell me: calculate square root of 144 plus 56?'
+        Expected: maths         | Result: maths         -> PASS
+
+[102/500] Query: 'Can you tell me: solve for x in 3x + 15 = 45?'
+        Expected: maths         | Result: maths         -> PASS
+
+[103/500] Query: 'Can you tell me: what is 15 percent of 250?'
+        Expected: maths         | Result: maths         -> PASS
+
+[104/500] Query: 'Can you tell me: find derivative of x squared with respect to x?'
+        Expected: maths         | Result: maths         -> PASS
+
+[105/500] Query: 'Can you tell me: if a car travels 60 miles in 45 minutes what is its speed?'
+        Expected: maths         | Result: maths         -> PASS
+
+[106/500] Query: 'Can you tell me: evaluate integral of sin(x) dx from 0 to pi?'
+        Expected: maths         | Result: maths         -> PASS
+
+[107/500] Query: 'Can you tell me: multiply 789 by 432?'
+        Expected: maths         | Result: maths         -> PASS
+
+[108/500] Query: 'Can you tell me: what is the log base 10 of 1000?'
+        Expected: maths         | Result: maths         -> PASS
+
+[109/500] Query: 'Can you tell me: calculate matrix multiplication for two 2x2 matrices?'
+        Expected: maths         | Result: maths         -> PASS
+
+[110/500] Query: 'Can you tell me: what is the factorial of 7 divided by 3?'
+        Expected: maths         | Result: maths         -> PASS
+
+[111/500] Query: 'Can you tell me: if all blooming flowers are colorful and roses bloom, are roses colorful?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[112/500] Query: 'Can you tell me: why does hot water freeze faster than cold water explain logically?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[113/500] Query: 'Can you tell me: a farmer has 17 sheep and all but 9 die how many are left?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[114/500] Query: 'Can you tell me: explain step by step why dark matter is hypothesized to exist?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[115/500] Query: 'Can you tell me: if A is taller than B and B is taller than C is C shorter than A?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[116/500] Query: 'Can you tell me: how can a person walk on water logically under physical principles?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[117/500] Query: 'Can you tell me: solve this logic grid puzzle about three brothers living in different cities?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[118/500] Query: 'Can you tell me: why do mirrors flip images horizontally but not vertically?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[119/500] Query: 'Can you tell me: if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[120/500] Query: 'Can you tell me: explain the monty hall problem and why changing doors doubles winning odds?'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[121/500] Query: 'Can you tell me: draft a formal cover letter for a senior video editor position?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[122/500] Query: 'Can you tell me: rewrite this paragraph to sound more professional and concise?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[123/500] Query: 'Can you tell me: write a persuasive essay outline on renewable energy adoption?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[124/500] Query: 'Can you tell me: compose a polite follow up email regarding my job interview?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[125/500] Query: 'Can you tell me: make this text sound more poetic and engaging for a post?'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[126/500] Query: 'Can you tell me: proofread this passage for grammar and punctuation errors?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[127/500] Query: 'Can you tell me: write a short story about an AI developing self awareness?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[128/500] Query: 'Can you tell me: draft an apology letter to a client for project delay?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[129/500] Query: 'Can you tell me: rephrase this technical paragraph for a non-technical audience?'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[130/500] Query: 'Can you tell me: write a compelling YouTube script intro for a tech review video?'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[131/500] Query: 'Can you tell me: what is the capital city of Australia?'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[132/500] Query: 'Can you tell me: who painted the Mona Lisa?'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[133/500] Query: 'Can you tell me: what is the molecular formula of table salt?'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[134/500] Query: 'Can you tell me: how many continents are there on Earth?'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[135/500] Query: 'Can you tell me: tell me a quick joke?'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[136/500] Query: 'Can you tell me: what is the atomic number of Gold?'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[137/500] Query: 'Can you tell me: what language is spoken in Brazil?'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[138/500] Query: 'Can you tell me: what is the speed of light in vacuum?'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[139/500] Query: 'Can you tell me: who discovered penicillin in science history?'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[140/500] Query: 'Can you tell me: what is the largest ocean on planet earth?'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[141/500] Query: 'Hey Nova, who won the F1 race today in Monaco'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[142/500] Query: 'Hey Nova, what is the live score of the cricket match right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[143/500] Query: 'Hey Nova, will it rain today in Mumbai'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[144/500] Query: 'Hey Nova, what is the stock price of Apple right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[145/500] Query: 'Hey Nova, who won the gold medal in basketball at the Olympics'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[146/500] Query: 'Hey Nova, latest news on FIFA world cup qualifiers'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[147/500] Query: 'Hey Nova, what is the current temperature outside'
+        Expected: realtime      | Result: general       -> FAIL (Got: 'general')
+
+[148/500] Query: 'Hey Nova, who is leading the IPL tournament points table currently'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[149/500] Query: 'Hey Nova, what time is the sunset today'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[150/500] Query: 'Hey Nova, who won the UEFA champions league finals last night'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[151/500] Query: 'Hey Nova, open chrome and search for mechanical keyboards'
+        Expected: automation    | Result: automation    -> PASS
+
+[152/500] Query: 'Hey Nova, launch spotify and play phonk playlist'
+        Expected: automation    | Result: automation    -> PASS
+
+[153/500] Query: 'Hey Nova, close all open windows in edge browser'
+        Expected: automation    | Result: automation    -> PASS
+
+[154/500] Query: 'Hey Nova, kill process node.exe hogging my ram in taskmanager'
+        Expected: automation    | Result: automation    -> PASS
+
+[155/500] Query: 'Hey Nova, start a new terminal instance in powershell'
+        Expected: automation    | Result: automation    -> PASS
+
+[156/500] Query: 'Hey Nova, open control panel and check bluetooth settings'
+        Expected: automation    | Result: automation    -> PASS
+
+[157/500] Query: 'Hey Nova, run command clear cache in cmd'
+        Expected: automation    | Result: automation    -> PASS
+
+[158/500] Query: 'Hey Nova, open taskmanager and shut down heavy background apps'
+        Expected: automation    | Result: automation    -> PASS
+
+[159/500] Query: 'Hey Nova, launch vscode and open my recent project folder'
+        Expected: automation    | Result: automation    -> PASS
+
+[160/500] Query: 'Hey Nova, close app discord and mute system volume'
+        Expected: automation    | Result: automation    -> PASS
+
+[161/500] Query: 'Hey Nova, how to implement binary search tree in C++'
+        Expected: coding        | Result: coding        -> PASS
+
+[162/500] Query: 'Hey Nova, debug this TypeError in my JavaScript fetch call'
+        Expected: coding        | Result: coding        -> PASS
+
+[163/500] Query: 'Hey Nova, write a regex pattern to validate email addresses'
+        Expected: coding        | Result: coding        -> PASS
+
+[164/500] Query: 'Hey Nova, explain how async await works in Rust with code example'
+        Expected: coding        | Result: coding        -> PASS
+
+[165/500] Query: 'Hey Nova, convert python dictionary to json string script'
+        Expected: coding        | Result: coding        -> PASS
+
+[166/500] Query: 'Hey Nova, refactor this function to reduce time complexity to O(n)'
+        Expected: coding        | Result: coding        -> PASS
+
+[167/500] Query: 'Hey Nova, fix syntaxerror in my dockerfile entrypoint script'
+        Expected: coding        | Result: coding        -> PASS
+
+[168/500] Query: 'Hey Nova, how do I handle CORS errors in a Node.js express backend'
+        Expected: coding        | Result: coding        -> PASS
+
+[169/500] Query: 'Hey Nova, write a SQL query to join user tables and aggregate total sales'
+        Expected: coding        | Result: coding        -> PASS
+
+[170/500] Query: 'Hey Nova, explain how memory allocation works in C pointers'
+        Expected: coding        | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[171/500] Query: 'Hey Nova, calculate square root of 144 plus 56'
+        Expected: maths         | Result: maths         -> PASS
+
+[172/500] Query: 'Hey Nova, solve for x in 3x + 15 = 45'
+        Expected: maths         | Result: maths         -> PASS
+
+[173/500] Query: 'Hey Nova, what is 15 percent of 250'
+        Expected: maths         | Result: maths         -> PASS
+
+[174/500] Query: 'Hey Nova, find derivative of x squared with respect to x'
+        Expected: maths         | Result: maths         -> PASS
+
+[175/500] Query: 'Hey Nova, if a car travels 60 miles in 45 minutes what is its speed'
+        Expected: maths         | Result: maths         -> PASS
+
+[176/500] Query: 'Hey Nova, evaluate integral of sin(x) dx from 0 to pi'
+        Expected: maths         | Result: maths         -> PASS
+
+[177/500] Query: 'Hey Nova, multiply 789 by 432'
+        Expected: maths         | Result: coding        -> FAIL (Got: 'coding')
+
+[178/500] Query: 'Hey Nova, what is the log base 10 of 1000'
+        Expected: maths         | Result: maths         -> PASS
+
+[179/500] Query: 'Hey Nova, calculate matrix multiplication for two 2x2 matrices'
+        Expected: maths         | Result: maths         -> PASS
+
+[180/500] Query: 'Hey Nova, what is the factorial of 7 divided by 3'
+        Expected: maths         | Result: maths         -> PASS
+
+[181/500] Query: 'Hey Nova, if all blooming flowers are colorful and roses bloom, are roses colorful'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[182/500] Query: 'Hey Nova, why does hot water freeze faster than cold water explain logically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[183/500] Query: 'Hey Nova, a farmer has 17 sheep and all but 9 die how many are left'
+        Expected: reasoning     | Result: maths         -> FAIL (Got: 'maths')
+
+[184/500] Query: 'Hey Nova, explain step by step why dark matter is hypothesized to exist'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[185/500] Query: 'Hey Nova, if A is taller than B and B is taller than C is C shorter than A'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[186/500] Query: 'Hey Nova, how can a person walk on water logically under physical principles'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[187/500] Query: 'Hey Nova, solve this logic grid puzzle about three brothers living in different cities'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[188/500] Query: 'Hey Nova, why do mirrors flip images horizontally but not vertically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[189/500] Query: 'Hey Nova, if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[190/500] Query: 'Hey Nova, explain the monty hall problem and why changing doors doubles winning odds'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[191/500] Query: 'Hey Nova, draft a formal cover letter for a senior video editor position'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[192/500] Query: 'Hey Nova, rewrite this paragraph to sound more professional and concise'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[193/500] Query: 'Hey Nova, write a persuasive essay outline on renewable energy adoption'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[194/500] Query: 'Hey Nova, compose a polite follow up email regarding my job interview'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[195/500] Query: 'Hey Nova, make this text sound more poetic and engaging for a post'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[196/500] Query: 'Hey Nova, proofread this passage for grammar and punctuation errors'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[197/500] Query: 'Hey Nova, write a short story about an AI developing self awareness'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[198/500] Query: 'Hey Nova, draft an apology letter to a client for project delay'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[199/500] Query: 'Hey Nova, rephrase this technical paragraph for a non-technical audience'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[200/500] Query: 'Hey Nova, write a compelling YouTube script intro for a tech review video'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[201/500] Query: 'Hey Nova, what is the capital city of Australia'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[202/500] Query: 'Hey Nova, who painted the Mona Lisa'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[203/500] Query: 'Hey Nova, what is the molecular formula of table salt'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[204/500] Query: 'Hey Nova, how many continents are there on Earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[205/500] Query: 'Hey Nova, tell me a quick joke'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[206/500] Query: 'Hey Nova, what is the atomic number of Gold'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[207/500] Query: 'Hey Nova, what language is spoken in Brazil'
+        Expected: general       | Result: writing skill -> FAIL (Got: 'writing skill')
+
+[208/500] Query: 'Hey Nova, what is the speed of light in vacuum'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[209/500] Query: 'Hey Nova, who discovered penicillin in science history'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[210/500] Query: 'Hey Nova, what is the largest ocean on planet earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[211/500] Query: 'Quick question, who won the F1 race today in Monaco'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[212/500] Query: 'Quick question, what is the live score of the cricket match right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[213/500] Query: 'Quick question, will it rain today in Mumbai'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[214/500] Query: 'Quick question, what is the stock price of Apple right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[215/500] Query: 'Quick question, who won the gold medal in basketball at the Olympics'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[216/500] Query: 'Quick question, latest news on FIFA world cup qualifiers'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[217/500] Query: 'Quick question, what is the current temperature outside'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[218/500] Query: 'Quick question, who is leading the IPL tournament points table currently'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[219/500] Query: 'Quick question, what time is the sunset today'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[220/500] Query: 'Quick question, who won the UEFA champions league finals last night'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[221/500] Query: 'Quick question, open chrome and search for mechanical keyboards'
+        Expected: automation    | Result: automation    -> PASS
+
+[222/500] Query: 'Quick question, launch spotify and play phonk playlist'
+        Expected: automation    | Result: automation    -> PASS
+
+[223/500] Query: 'Quick question, close all open windows in edge browser'
+        Expected: automation    | Result: automation    -> PASS
+
+[224/500] Query: 'Quick question, kill process node.exe hogging my ram in taskmanager'
+        Expected: automation    | Result: automation    -> PASS
+
+[225/500] Query: 'Quick question, start a new terminal instance in powershell'
+        Expected: automation    | Result: automation    -> PASS
+
+[226/500] Query: 'Quick question, open control panel and check bluetooth settings'
+        Expected: automation    | Result: automation    -> PASS
+
+[227/500] Query: 'Quick question, run command clear cache in cmd'
+        Expected: automation    | Result: automation    -> PASS
+
+[228/500] Query: 'Quick question, open taskmanager and shut down heavy background apps'
+        Expected: automation    | Result: automation    -> PASS
+
+[229/500] Query: 'Quick question, launch vscode and open my recent project folder'
+        Expected: automation    | Result: automation    -> PASS
+
+[230/500] Query: 'Quick question, close app discord and mute system volume'
+        Expected: automation    | Result: automation    -> PASS
+
+[231/500] Query: 'Quick question, how to implement binary search tree in C++'
+        Expected: coding        | Result: coding        -> PASS
+
+[232/500] Query: 'Quick question, debug this TypeError in my JavaScript fetch call'
+        Expected: coding        | Result: coding        -> PASS
+
+[233/500] Query: 'Quick question, write a regex pattern to validate email addresses'
+        Expected: coding        | Result: coding        -> PASS
+
+[234/500] Query: 'Quick question, explain how async await works in Rust with code example'
+        Expected: coding        | Result: coding        -> PASS
+
+[235/500] Query: 'Quick question, convert python dictionary to json string script'
+        Expected: coding        | Result: coding        -> PASS
+
+[236/500] Query: 'Quick question, refactor this function to reduce time complexity to O(n)'
+        Expected: coding        | Result: coding        -> PASS
+
+[237/500] Query: 'Quick question, fix syntaxerror in my dockerfile entrypoint script'
+        Expected: coding        | Result: coding        -> PASS
+
+[238/500] Query: 'Quick question, how do I handle CORS errors in a Node.js express backend'
+        Expected: coding        | Result: coding        -> PASS
+
+[239/500] Query: 'Quick question, write a SQL query to join user tables and aggregate total sales'
+        Expected: coding        | Result: coding        -> PASS
+
+[240/500] Query: 'Quick question, explain how memory allocation works in C pointers'
+        Expected: coding        | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[241/500] Query: 'Quick question, calculate square root of 144 plus 56'
+        Expected: maths         | Result: maths         -> PASS
+
+[242/500] Query: 'Quick question, solve for x in 3x + 15 = 45'
+        Expected: maths         | Result: maths         -> PASS
+
+[243/500] Query: 'Quick question, what is 15 percent of 250'
+        Expected: maths         | Result: maths         -> PASS
+
+[244/500] Query: 'Quick question, find derivative of x squared with respect to x'
+        Expected: maths         | Result: maths         -> PASS
+
+[245/500] Query: 'Quick question, if a car travels 60 miles in 45 minutes what is its speed'
+        Expected: maths         | Result: maths         -> PASS
+
+[246/500] Query: 'Quick question, evaluate integral of sin(x) dx from 0 to pi'
+        Expected: maths         | Result: maths         -> PASS
+
+[247/500] Query: 'Quick question, multiply 789 by 432'
+        Expected: maths         | Result: maths         -> PASS
+
+[248/500] Query: 'Quick question, what is the log base 10 of 1000'
+        Expected: maths         | Result: maths         -> PASS
+
+[249/500] Query: 'Quick question, calculate matrix multiplication for two 2x2 matrices'
+        Expected: maths         | Result: maths         -> PASS
+
+[250/500] Query: 'Quick question, what is the factorial of 7 divided by 3'
+        Expected: maths         | Result: maths         -> PASS
+
+[251/500] Query: 'Quick question, if all blooming flowers are colorful and roses bloom, are roses colorful'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[252/500] Query: 'Quick question, why does hot water freeze faster than cold water explain logically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[253/500] Query: 'Quick question, a farmer has 17 sheep and all but 9 die how many are left'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[254/500] Query: 'Quick question, explain step by step why dark matter is hypothesized to exist'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[255/500] Query: 'Quick question, if A is taller than B and B is taller than C is C shorter than A'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[256/500] Query: 'Quick question, how can a person walk on water logically under physical principles'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[257/500] Query: 'Quick question, solve this logic grid puzzle about three brothers living in different cities'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[258/500] Query: 'Quick question, why do mirrors flip images horizontally but not vertically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[259/500] Query: 'Quick question, if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[260/500] Query: 'Quick question, explain the monty hall problem and why changing doors doubles winning odds'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[261/500] Query: 'Quick question, draft a formal cover letter for a senior video editor position'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[262/500] Query: 'Quick question, rewrite this paragraph to sound more professional and concise'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[263/500] Query: 'Quick question, write a persuasive essay outline on renewable energy adoption'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[264/500] Query: 'Quick question, compose a polite follow up email regarding my job interview'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[265/500] Query: 'Quick question, make this text sound more poetic and engaging for a post'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[266/500] Query: 'Quick question, proofread this passage for grammar and punctuation errors'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[267/500] Query: 'Quick question, write a short story about an AI developing self awareness'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[268/500] Query: 'Quick question, draft an apology letter to a client for project delay'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[269/500] Query: 'Quick question, rephrase this technical paragraph for a non-technical audience'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[270/500] Query: 'Quick question, write a compelling YouTube script intro for a tech review video'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[271/500] Query: 'Quick question, what is the capital city of Australia'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[272/500] Query: 'Quick question, who painted the Mona Lisa'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[273/500] Query: 'Quick question, what is the molecular formula of table salt'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[274/500] Query: 'Quick question, how many continents are there on Earth'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[275/500] Query: 'Quick question, tell me a quick joke'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[276/500] Query: 'Quick question, what is the atomic number of Gold'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[277/500] Query: 'Quick question, what language is spoken in Brazil'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[278/500] Query: 'Quick question, what is the speed of light in vacuum'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[279/500] Query: 'Quick question, who discovered penicillin in science history'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[280/500] Query: 'Quick question, what is the largest ocean on planet earth'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[281/500] Query: 'Please who won the F1 race today in Monaco'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[282/500] Query: 'Please what is the live score of the cricket match right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[283/500] Query: 'Please will it rain today in Mumbai'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[284/500] Query: 'Please what is the stock price of Apple right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[285/500] Query: 'Please who won the gold medal in basketball at the Olympics'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[286/500] Query: 'Please latest news on FIFA world cup qualifiers'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[287/500] Query: 'Please what is the current temperature outside'
+        Expected: realtime      | Result: general       -> FAIL (Got: 'general')
+
+[288/500] Query: 'Please who is leading the IPL tournament points table currently'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[289/500] Query: 'Please what time is the sunset today'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[290/500] Query: 'Please who won the UEFA champions league finals last night'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[291/500] Query: 'Please open chrome and search for mechanical keyboards'
+        Expected: automation    | Result: automation    -> PASS
+
+[292/500] Query: 'Please launch spotify and play phonk playlist'
+        Expected: automation    | Result: automation    -> PASS
+
+[293/500] Query: 'Please close all open windows in edge browser'
+        Expected: automation    | Result: automation    -> PASS
+
+[294/500] Query: 'Please kill process node.exe hogging my ram in taskmanager'
+        Expected: automation    | Result: automation    -> PASS
+
+[295/500] Query: 'Please start a new terminal instance in powershell'
+        Expected: automation    | Result: automation    -> PASS
+
+[296/500] Query: 'Please open control panel and check bluetooth settings'
+        Expected: automation    | Result: automation    -> PASS
+
+[297/500] Query: 'Please run command clear cache in cmd'
+        Expected: automation    | Result: automation    -> PASS
+
+[298/500] Query: 'Please open taskmanager and shut down heavy background apps'
+        Expected: automation    | Result: automation    -> PASS
+
+[299/500] Query: 'Please launch vscode and open my recent project folder'
+        Expected: automation    | Result: automation    -> PASS
+
+[300/500] Query: 'Please close app discord and mute system volume'
+        Expected: automation    | Result: automation    -> PASS
+
+[301/500] Query: 'Please how to implement binary search tree in C++'
+        Expected: coding        | Result: coding        -> PASS
+
+[302/500] Query: 'Please debug this TypeError in my JavaScript fetch call'
+        Expected: coding        | Result: coding        -> PASS
+
+[303/500] Query: 'Please write a regex pattern to validate email addresses'
+        Expected: coding        | Result: coding        -> PASS
+
+[304/500] Query: 'Please explain how async await works in Rust with code example'
+        Expected: coding        | Result: coding        -> PASS
+
+[305/500] Query: 'Please convert python dictionary to json string script'
+        Expected: coding        | Result: coding        -> PASS
+
+[306/500] Query: 'Please refactor this function to reduce time complexity to O(n)'
+        Expected: coding        | Result: coding        -> PASS
+
+[307/500] Query: 'Please fix syntaxerror in my dockerfile entrypoint script'
+        Expected: coding        | Result: coding        -> PASS
+
+[308/500] Query: 'Please how do I handle CORS errors in a Node.js express backend'
+        Expected: coding        | Result: coding        -> PASS
+
+[309/500] Query: 'Please write a SQL query to join user tables and aggregate total sales'
+        Expected: coding        | Result: coding        -> PASS
+
+[310/500] Query: 'Please explain how memory allocation works in C pointers'
+        Expected: coding        | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[311/500] Query: 'Please calculate square root of 144 plus 56'
+        Expected: maths         | Result: maths         -> PASS
+
+[312/500] Query: 'Please solve for x in 3x + 15 = 45'
+        Expected: maths         | Result: maths         -> PASS
+
+[313/500] Query: 'Please what is 15 percent of 250'
+        Expected: maths         | Result: maths         -> PASS
+
+[314/500] Query: 'Please find derivative of x squared with respect to x'
+        Expected: maths         | Result: maths         -> PASS
+
+[315/500] Query: 'Please if a car travels 60 miles in 45 minutes what is its speed'
+        Expected: maths         | Result: maths         -> PASS
+
+[316/500] Query: 'Please evaluate integral of sin(x) dx from 0 to pi'
+        Expected: maths         | Result: maths         -> PASS
+
+[317/500] Query: 'Please multiply 789 by 432'
+        Expected: maths         | Result: coding        -> FAIL (Got: 'coding')
+
+[318/500] Query: 'Please what is the log base 10 of 1000'
+        Expected: maths         | Result: maths         -> PASS
+
+[319/500] Query: 'Please calculate matrix multiplication for two 2x2 matrices'
+        Expected: maths         | Result: maths         -> PASS
+
+[320/500] Query: 'Please what is the factorial of 7 divided by 3'
+        Expected: maths         | Result: maths         -> PASS
+
+[321/500] Query: 'Please if all blooming flowers are colorful and roses bloom, are roses colorful'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[322/500] Query: 'Please why does hot water freeze faster than cold water explain logically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[323/500] Query: 'Please a farmer has 17 sheep and all but 9 die how many are left'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[324/500] Query: 'Please explain step by step why dark matter is hypothesized to exist'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[325/500] Query: 'Please if A is taller than B and B is taller than C is C shorter than A'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[326/500] Query: 'Please how can a person walk on water logically under physical principles'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[327/500] Query: 'Please solve this logic grid puzzle about three brothers living in different cities'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[328/500] Query: 'Please why do mirrors flip images horizontally but not vertically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[329/500] Query: 'Please if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[330/500] Query: 'Please explain the monty hall problem and why changing doors doubles winning odds'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[331/500] Query: 'Please draft a formal cover letter for a senior video editor position'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[332/500] Query: 'Please rewrite this paragraph to sound more professional and concise'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[333/500] Query: 'Please write a persuasive essay outline on renewable energy adoption'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[334/500] Query: 'Please compose a polite follow up email regarding my job interview'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[335/500] Query: 'Please make this text sound more poetic and engaging for a post'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[336/500] Query: 'Please proofread this passage for grammar and punctuation errors'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[337/500] Query: 'Please write a short story about an AI developing self awareness'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[338/500] Query: 'Please draft an apology letter to a client for project delay'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[339/500] Query: 'Please rephrase this technical paragraph for a non-technical audience'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[340/500] Query: 'Please write a compelling YouTube script intro for a tech review video'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[341/500] Query: 'Please what is the capital city of Australia'
+        Expected: general       | Result: general       -> PASS
+
+[342/500] Query: 'Please who painted the Mona Lisa'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[343/500] Query: 'Please what is the molecular formula of table salt'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[344/500] Query: 'Please how many continents are there on Earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[345/500] Query: 'Please tell me a quick joke'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[346/500] Query: 'Please what is the atomic number of Gold'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[347/500] Query: 'Please what language is spoken in Brazil'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[348/500] Query: 'Please what is the speed of light in vacuum'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[349/500] Query: 'Please who discovered penicillin in science history'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[350/500] Query: 'Please what is the largest ocean on planet earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[351/500] Query: 'who won the F1 race today in Monaco - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[352/500] Query: 'what is the live score of the cricket match right now - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[353/500] Query: 'will it rain today in Mumbai - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[354/500] Query: 'what is the stock price of Apple right now - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[355/500] Query: 'who won the gold medal in basketball at the Olympics - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[356/500] Query: 'latest news on FIFA world cup qualifiers - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[357/500] Query: 'what is the current temperature outside - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[358/500] Query: 'who is leading the IPL tournament points table currently - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[359/500] Query: 'what time is the sunset today - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[360/500] Query: 'who won the UEFA champions league finals last night - need this fast'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[361/500] Query: 'open chrome and search for mechanical keyboards - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[362/500] Query: 'launch spotify and play phonk playlist - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[363/500] Query: 'close all open windows in edge browser - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[364/500] Query: 'kill process node.exe hogging my ram in taskmanager - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[365/500] Query: 'start a new terminal instance in powershell - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[366/500] Query: 'open control panel and check bluetooth settings - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[367/500] Query: 'run command clear cache in cmd - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[368/500] Query: 'open taskmanager and shut down heavy background apps - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[369/500] Query: 'launch vscode and open my recent project folder - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[370/500] Query: 'close app discord and mute system volume - need this fast'
+        Expected: automation    | Result: automation    -> PASS
+
+[371/500] Query: 'how to implement binary search tree in C++ - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[372/500] Query: 'debug this TypeError in my JavaScript fetch call - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[373/500] Query: 'write a regex pattern to validate email addresses - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[374/500] Query: 'explain how async await works in Rust with code example - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[375/500] Query: 'convert python dictionary to json string script - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[376/500] Query: 'refactor this function to reduce time complexity to O(n) - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[377/500] Query: 'fix syntaxerror in my dockerfile entrypoint script - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[378/500] Query: 'how do I handle CORS errors in a Node.js express backend - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[379/500] Query: 'write a SQL query to join user tables and aggregate total sales - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[380/500] Query: 'explain how memory allocation works in C pointers - need this fast'
+        Expected: coding        | Result: coding        -> PASS
+
+[381/500] Query: 'calculate square root of 144 plus 56 - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[382/500] Query: 'solve for x in 3x + 15 = 45 - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[383/500] Query: 'what is 15 percent of 250 - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[384/500] Query: 'find derivative of x squared with respect to x - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[385/500] Query: 'if a car travels 60 miles in 45 minutes what is its speed - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[386/500] Query: 'evaluate integral of sin(x) dx from 0 to pi - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[387/500] Query: 'multiply 789 by 432 - need this fast'
+        Expected: maths         | Result: coding        -> FAIL (Got: 'coding')
+
+[388/500] Query: 'what is the log base 10 of 1000 - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[389/500] Query: 'calculate matrix multiplication for two 2x2 matrices - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[390/500] Query: 'what is the factorial of 7 divided by 3 - need this fast'
+        Expected: maths         | Result: maths         -> PASS
+
+[391/500] Query: 'if all blooming flowers are colorful and roses bloom, are roses colorful - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[392/500] Query: 'why does hot water freeze faster than cold water explain logically - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[393/500] Query: 'a farmer has 17 sheep and all but 9 die how many are left - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[394/500] Query: 'explain step by step why dark matter is hypothesized to exist - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[395/500] Query: 'if A is taller than B and B is taller than C is C shorter than A - need this fast'
+        Expected: reasoning     | Result: coding        -> FAIL (Got: 'coding')
+
+[396/500] Query: 'how can a person walk on water logically under physical principles - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[397/500] Query: 'solve this logic grid puzzle about three brothers living in different cities - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[398/500] Query: 'why do mirrors flip images horizontally but not vertically - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[399/500] Query: 'if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice - need this fast'
+        Expected: reasoning     | Result: coding        -> FAIL (Got: 'coding')
+
+[400/500] Query: 'explain the monty hall problem and why changing doors doubles winning odds - need this fast'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[401/500] Query: 'draft a formal cover letter for a senior video editor position - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[402/500] Query: 'rewrite this paragraph to sound more professional and concise - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[403/500] Query: 'write a persuasive essay outline on renewable energy adoption - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[404/500] Query: 'compose a polite follow up email regarding my job interview - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[405/500] Query: 'make this text sound more poetic and engaging for a post - need this fast'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[406/500] Query: 'proofread this passage for grammar and punctuation errors - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[407/500] Query: 'write a short story about an AI developing self awareness - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[408/500] Query: 'draft an apology letter to a client for project delay - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[409/500] Query: 'rephrase this technical paragraph for a non-technical audience - need this fast'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[410/500] Query: 'write a compelling YouTube script intro for a tech review video - need this fast'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[411/500] Query: 'what is the capital city of Australia - need this fast'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[412/500] Query: 'who painted the Mona Lisa - need this fast'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[413/500] Query: 'what is the molecular formula of table salt - need this fast'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[414/500] Query: 'how many continents are there on Earth - need this fast'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[415/500] Query: 'tell me a quick joke - need this fast'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[416/500] Query: 'what is the atomic number of Gold - need this fast'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[417/500] Query: 'what language is spoken in Brazil - need this fast'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[418/500] Query: 'what is the speed of light in vacuum - need this fast'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[419/500] Query: 'who discovered penicillin in science history - need this fast'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[420/500] Query: 'what is the largest ocean on planet earth - need this fast'
+        Expected: general       | Result: coding        -> FAIL (Got: 'coding')
+
+[421/500] Query: 'I want to know who won the F1 race today in Monaco'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[422/500] Query: 'I want to know what is the live score of the cricket match right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[423/500] Query: 'I want to know will it rain today in Mumbai'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[424/500] Query: 'I want to know what is the stock price of Apple right now'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[425/500] Query: 'I want to know who won the gold medal in basketball at the Olympics'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[426/500] Query: 'I want to know latest news on FIFA world cup qualifiers'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[427/500] Query: 'I want to know what is the current temperature outside'
+        Expected: realtime      | Result: general       -> FAIL (Got: 'general')
+
+[428/500] Query: 'I want to know who is leading the IPL tournament points table currently'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[429/500] Query: 'I want to know what time is the sunset today'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[430/500] Query: 'I want to know who won the UEFA champions league finals last night'
+        Expected: realtime      | Result: realtime      -> PASS
+
+[431/500] Query: 'I want to know open chrome and search for mechanical keyboards'
+        Expected: automation    | Result: automation    -> PASS
+
+[432/500] Query: 'I want to know launch spotify and play phonk playlist'
+        Expected: automation    | Result: automation    -> PASS
+
+[433/500] Query: 'I want to know close all open windows in edge browser'
+        Expected: automation    | Result: automation    -> PASS
+
+[434/500] Query: 'I want to know kill process node.exe hogging my ram in taskmanager'
+        Expected: automation    | Result: automation    -> PASS
+
+[435/500] Query: 'I want to know start a new terminal instance in powershell'
+        Expected: automation    | Result: automation    -> PASS
+
+[436/500] Query: 'I want to know open control panel and check bluetooth settings'
+        Expected: automation    | Result: automation    -> PASS
+
+[437/500] Query: 'I want to know run command clear cache in cmd'
+        Expected: automation    | Result: automation    -> PASS
+
+[438/500] Query: 'I want to know open taskmanager and shut down heavy background apps'
+        Expected: automation    | Result: automation    -> PASS
+
+[439/500] Query: 'I want to know launch vscode and open my recent project folder'
+        Expected: automation    | Result: automation    -> PASS
+
+[440/500] Query: 'I want to know close app discord and mute system volume'
+        Expected: automation    | Result: automation    -> PASS
+
+[441/500] Query: 'I want to know how to implement binary search tree in C++'
+        Expected: coding        | Result: coding        -> PASS
+
+[442/500] Query: 'I want to know debug this TypeError in my JavaScript fetch call'
+        Expected: coding        | Result: coding        -> PASS
+
+[443/500] Query: 'I want to know write a regex pattern to validate email addresses'
+        Expected: coding        | Result: coding        -> PASS
+
+[444/500] Query: 'I want to know explain how async await works in Rust with code example'
+        Expected: coding        | Result: coding        -> PASS
+
+[445/500] Query: 'I want to know convert python dictionary to json string script'
+        Expected: coding        | Result: coding        -> PASS
+
+[446/500] Query: 'I want to know refactor this function to reduce time complexity to O(n)'
+        Expected: coding        | Result: coding        -> PASS
+
+[447/500] Query: 'I want to know fix syntaxerror in my dockerfile entrypoint script'
+        Expected: coding        | Result: coding        -> PASS
+
+[448/500] Query: 'I want to know how do I handle CORS errors in a Node.js express backend'
+        Expected: coding        | Result: coding        -> PASS
+
+[449/500] Query: 'I want to know write a SQL query to join user tables and aggregate total sales'
+        Expected: coding        | Result: coding        -> PASS
+
+[450/500] Query: 'I want to know explain how memory allocation works in C pointers'
+        Expected: coding        | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[451/500] Query: 'I want to know calculate square root of 144 plus 56'
+        Expected: maths         | Result: maths         -> PASS
+
+[452/500] Query: 'I want to know solve for x in 3x + 15 = 45'
+        Expected: maths         | Result: maths         -> PASS
+
+[453/500] Query: 'I want to know what is 15 percent of 250'
+        Expected: maths         | Result: maths         -> PASS
+
+[454/500] Query: 'I want to know find derivative of x squared with respect to x'
+        Expected: maths         | Result: maths         -> PASS
+
+[455/500] Query: 'I want to know if a car travels 60 miles in 45 minutes what is its speed'
+        Expected: maths         | Result: maths         -> PASS
+
+[456/500] Query: 'I want to know evaluate integral of sin(x) dx from 0 to pi'
+        Expected: maths         | Result: maths         -> PASS
+
+[457/500] Query: 'I want to know multiply 789 by 432'
+        Expected: maths         | Result: maths         -> PASS
+
+[458/500] Query: 'I want to know what is the log base 10 of 1000'
+        Expected: maths         | Result: maths         -> PASS
+
+[459/500] Query: 'I want to know calculate matrix multiplication for two 2x2 matrices'
+        Expected: maths         | Result: maths         -> PASS
+
+[460/500] Query: 'I want to know what is the factorial of 7 divided by 3'
+        Expected: maths         | Result: maths         -> PASS
+
+[461/500] Query: 'I want to know if all blooming flowers are colorful and roses bloom, are roses colorful'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[462/500] Query: 'I want to know why does hot water freeze faster than cold water explain logically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[463/500] Query: 'I want to know a farmer has 17 sheep and all but 9 die how many are left'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[464/500] Query: 'I want to know explain step by step why dark matter is hypothesized to exist'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[465/500] Query: 'I want to know if A is taller than B and B is taller than C is C shorter than A'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[466/500] Query: 'I want to know how can a person walk on water logically under physical principles'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[467/500] Query: 'I want to know solve this logic grid puzzle about three brothers living in different cities'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[468/500] Query: 'I want to know why do mirrors flip images horizontally but not vertically'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[469/500] Query: 'I want to know if 5 cats catch 5 mice in 5 minutes how long for 100 cats to catch 100 mice'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[470/500] Query: 'I want to know explain the monty hall problem and why changing doors doubles winning odds'
+        Expected: reasoning     | Result: reasoning     -> PASS
+
+[471/500] Query: 'I want to know draft a formal cover letter for a senior video editor position'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[472/500] Query: 'I want to know rewrite this paragraph to sound more professional and concise'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[473/500] Query: 'I want to know write a persuasive essay outline on renewable energy adoption'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[474/500] Query: 'I want to know compose a polite follow up email regarding my job interview'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[475/500] Query: 'I want to know make this text sound more poetic and engaging for a post'
+        Expected: writing skill | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[476/500] Query: 'I want to know proofread this passage for grammar and punctuation errors'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[477/500] Query: 'I want to know write a short story about an AI developing self awareness'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[478/500] Query: 'I want to know draft an apology letter to a client for project delay'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[479/500] Query: 'I want to know rephrase this technical paragraph for a non-technical audience'
+        Expected: writing skill | Result: writing skill -> PASS
+
+[480/500] Query: 'I want to know write a compelling YouTube script intro for a tech review video'
+        Expected: writing skill | Result: coding        -> FAIL (Got: 'coding')
+
+[481/500] Query: 'I want to know what is the capital city of Australia'
+        Expected: general       | Result: general       -> PASS
+
+[482/500] Query: 'I want to know who painted the Mona Lisa'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[483/500] Query: 'I want to know what is the molecular formula of table salt'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[484/500] Query: 'I want to know how many continents are there on Earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[485/500] Query: 'I want to know tell me a quick joke'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[486/500] Query: 'I want to know what is the atomic number of Gold'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[487/500] Query: 'I want to know what language is spoken in Brazil'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[488/500] Query: 'I want to know what is the speed of light in vacuum'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+[489/500] Query: 'I want to know who discovered penicillin in science history'
+        Expected: general       | Result: reasoning     -> FAIL (Got: 'reasoning')
+
+[490/500] Query: 'I want to know what is the largest ocean on planet earth'
+        Expected: general       | Result: maths         -> FAIL (Got: 'maths')
+
+=================================================================
+BENCHMARK SUMMARY
+Total Processed : 500
+Passed           : 392
+Failed           : 98
+Accuracy Rate    : 78.40%
+Total Execution  : 226.98s (0.454s per query)
+=================================================================
+
+=== FAILURE LOG (First 10) ===
+[030] 'explain how memory allocation works in C pointers'
+      Expected: coding | Got: reasoning
+
+[055] 'make this text sound more poetic and engaging for a post'
+      Expected: writing skill | Got: reasoning
+
+[060] 'write a compelling YouTube script intro for a tech review video'
+      Expected: writing skill | Got: coding
+
+[061] 'what is the capital city of Australia'
+      Expected: general | Got: reasoning
+
+[062] 'who painted the Mona Lisa'
+      Expected: general | Got: reasoning
+
+[063] 'what is the molecular formula of table salt'
+      Expected: general | Got: maths
+
+[064] 'how many continents are there on Earth'
+      Expected: general | Got: maths
+
+[065] 'tell me a quick joke'
+      Expected: general | Got: reasoning
+
+[066] 'what is the atomic number of Gold'
+      Expected: general | Got: maths
+
+[067] 'what language is spoken in Brazil'
+      Expected: general | Got: maths
