@@ -9,7 +9,7 @@ A fast, privacy-focused local AI assistant designed to help with daily productiv
 * **Deep Reasoning Engine:** Multi-step problem solving and complex logical planning.
 * **Advanced AI Models:** Multi-LLM support for lightweight local inference and high-capacity tasks.
 * **4K Image Generation:** Fast local visual creation and rendering.
-* **Video Generation:** Dynamic clip and motion generation tools.
+* **8k Video Generation:** Dynamic clip and motion generation tools.
 * **Advanced System Integrations:** Native control over system settings, files, and local applications.
 * **Modular Automation:** Custom workflow automation, script execution, and task triggers.
 * **Context & Memory:** Long-term conversation memory and personalized context awareness.
