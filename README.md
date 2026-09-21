@@ -5,6 +5,7 @@ A fast, privacy-focused local AI assistant designed to help with daily productiv
 ## ✨ Features
 
 * **Advanced Speech Recognition:** High-accuracy real-time voice input and transcription (NovaEar).
+* **Locally Run AI Agents:** Any agent running on your PC locally
 * **Advanced Voice Generation:** Natural, low-latency text-to-speech synthesis (NovaVox).
 * **Deep Reasoning Engine:** Multi-step problem solving and complex logical planning.
 * **Advanced AI Models:** Multi-LLM support for lightweight local inference and high-capacity tasks.
